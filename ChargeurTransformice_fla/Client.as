@@ -55,7 +55,7 @@
 			} else if (C == 144 && CC == 28) {
 				var playerMovement:C_PlayerMovement = new C_PlayerMovement(packet);
 			}
-
+			//test
 
 			packet.position = 0;
 			SocketHandler.handleInboundPacket(packet);
